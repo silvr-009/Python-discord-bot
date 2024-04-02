@@ -1,0 +1,14 @@
+#so guys this is the file of explanation or called help file. I will give a help file for each of my repositeries..
+
+Import - is going to import some files of an application. For discord there are some files for specialy made for making bots.
+bot.run - is simply a text used for running the bot after finishing the code.
+on_ready- when the bot is activated using bot.run the script will show on the console that the bot is online using the text you provided.
+on_message- when a person send a message, on that specific message containing its command will make it react.
+
+I THINK ITS THATS ALL
+
+  ---------> and guys the code will completely work fine for replit 2024. You would have saw some tutorials but when u tried it, you would have found it wrong and bringing some errors. But if this makes an error,
+  use the blackbox ai or CHATGPT for explanation and solving the problem.
+
+
+  My discord- silvr_009
