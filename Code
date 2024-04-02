@@ -1,0 +1,32 @@
+#IMPORTS (like const in java, it is import in python.)
+
+import os
+import discord
+from discord.ext import commands
+
+
+#INTENTS
+# I N T E N T S
+intents = discord.Intents.default()
+intents.messages = True
+intents.message_content = True
+intents.members = True
+
+# B O T   C O N F I G
+bot = commands.Bot(command_prefix='/', intents=intents) { you can give whatever command prefix it can ! or $}
+
+# O N   R E A D Y
+@bot.event
+async def on_ready():
+  print('{your.bot.name} is on!')
+
+@bot.event
+async def on_message(message):
+  if message.author == bot.user:
+    return
+
+  if message.content.startswith("/hello"):
+   await.message.channel.send("hello!")
+
+
+bot.run("YOUR_BOT_TOKEN")
